@@ -1,5 +1,5 @@
 {
-  "name": "next-js-starter",
+  "name": "jandu-petroleum",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.1",
+    "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "gsap": "^3.12.5",
+    "hamburger-react": "^2.5.1",
     "next": "14.2.4",
     "react": "^18",
     "react-dom": "^18",

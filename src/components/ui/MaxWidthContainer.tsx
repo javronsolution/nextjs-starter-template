@@ -5,11 +5,11 @@ const MaxWidthContainer = ({
   children,
   className,
 }: {
-  children: React.ReactNode;
+  children?: React.ReactNode;
   className?: string;
 }) => {
   return (
-    <div className={cn("h-full mx-auto max-w-screen-xl px-2.5 md:px-20 text-white", className)}>
+    <div className={cn("h-full mx-auto max-w-screen-xl px-2.5 md:px-20", className)}>
       {children}
     </div>
   );
